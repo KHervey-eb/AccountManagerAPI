@@ -6,23 +6,17 @@
                     "method": "GET",
                     "description": "Returns list of all accounts",
                     "path": "",
-                    "responses": {
-
-                    }
+                    "responses": {}
                 }
             ]
         }
     },
-    {
-        "/produce-workato-message":{
-            "operations": {
-                "method": "POST",
-                "description": "Returns Workato message",
-                "path": "",
-                "responses":{
-                    
-                }
-            }
+    "/produce-workato-message": {
+        "operations": {
+            "method": "POST",
+            "description": "Returns Workato message",
+            "path": "",
+            "responses": {}
         }
     }
 }
