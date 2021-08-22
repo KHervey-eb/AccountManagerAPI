@@ -1,4 +1,28 @@
-"resources": {
+{
+    "resources": {
+        "/accounts": {
+            "operations": [
+                {
+                    "method": "GET",
+                    "description": "Returns list of all accounts",
+                    "path": "",
+                    "responses": {
 
-    
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "/produce-workato-message":{
+            "operations": {
+                "method": "POST",
+                "description": "Returns Workato message",
+                "path": "",
+                "responses":{
+                    
+                }
+            }
+        }
+    }
 }
